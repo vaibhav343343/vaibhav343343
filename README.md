@@ -24,12 +24,10 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav343343)
-
+![Vaibhav's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=dark&cache_seconds=1800)
 
 ---
 
 ## 🧠 Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&theme=dark)
-
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&theme=dark&cache_seconds=1800)
