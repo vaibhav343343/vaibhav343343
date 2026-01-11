@@ -16,3 +16,6 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 [![](https://visitcount.itsvg.in/api?id=vaibhav343343&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 📊 Activity Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&theme=github-dark)
