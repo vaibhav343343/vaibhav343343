@@ -19,3 +19,16 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 ## 📊 Activity Graph
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&theme=github-dark)
+
+---
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=dark)
+
+---
+
+## 🧠 Top Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&theme=dark)
+
