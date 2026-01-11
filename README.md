@@ -28,8 +28,5 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ### 👀 Profile Views
 ![Profile Views](https://komarev.com/ghpvc/?username=vaibhav343343&color=blue&style=flat)
-
----
-
 ### ⭐ GitHub Followers
 ![GitHub Followers](https://img.shields.io/github/followers/vaibhav343343?label=Follow&style=social)
