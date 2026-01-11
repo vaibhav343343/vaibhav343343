@@ -40,8 +40,7 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ---
 
-<p align="center">
-  💡 <h1>Exploring cloud architecture and building scalable systems.</h1>
+<p align="center">💡<p<h1>Exploring cloud architecture and building scalable systems.</h1>
 </p>
 
 <p align="center">
