@@ -26,7 +26,26 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ---
 
-### 👀 Profile Views
-![Profile Views](https://komarev.com/ghpvc/?username=vaibhav343343&color=blue&style=flat)
-### ⭐ GitHub Followers
-![GitHub Followers](https://img.shields.io/github/followers/vaibhav343343?label=Follow&style=social)
+<h1 align="center">Hi 👋, I'm Vaibhav Sudrik</h1>
+
+<p align="center">
+💡 <i>"Building the future, one deployment at a time."</i>
+</p>
+
+<hr/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=vaibhav343343&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/vaibhav343343?tab=followers">
+    <img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=social" />
+  </a>
+</p>
+
+<hr/>
+
+<p align="center">
+🚀 Cloud • DevOps • Kubernetes • AWS
+</p>
