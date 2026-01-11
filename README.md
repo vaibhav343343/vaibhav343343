@@ -22,12 +22,6 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ---
 
-💡 *"Building the future, one deployment at a time."*
-
----
-
-<h1 align="center">Hi 👋, I'm Vaibhav Sudrik</h1>
-
 <p align="center">
 💡 <i>"Building the future, one deployment at a time."</i>
 </p>
@@ -37,8 +31,6 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vaibhav343343&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
 </p>
-
-<p align="center">
   <a href="https://github.com/vaibhav343343?tab=followers">
     <img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=social" />
   </a>
@@ -47,5 +39,4 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 <hr/>
 
 <p align="center">
-🚀 Cloud • DevOps • Kubernetes • AWS
 </p>
