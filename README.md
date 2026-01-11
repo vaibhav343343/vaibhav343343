@@ -23,20 +23,12 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 ---
 
 <p align="center">
-💡 <i>"Building the future, one deployment at a time."</i>
+💡 <i>"💡 Exploring cloud architecture and building scalable systems."</i>
 </p>
-
-<hr/>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vaibhav343343&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/vaibhav343343?tab=followers">
-    <img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=social" />
+    <img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=social" alt="followers" />
   </a>
-</p>
-
-<hr/>
-
-<p align="center">
 </p>
