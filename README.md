@@ -1,10 +1,13 @@
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=500&color=0E75B6&center=true&vCenter=true&width=700&lines=Cloud+%26+DevOps+Engineer;Building+scalable+cloud+systems;Automating+infrastructure+with+DevOps;Focused+on+reliability+and+growth"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1200&color=0E75B6&center=true&vCenter=true&width=700&lines=Cloud+%26+DevOps+Engineer;Building+scalable+cloud+systems;Automating+infrastructure+with+DevOps;Focused+on+reliability+and+growth"
     alt="Typing SVG"
   />
 </p>
+
+
 ---
+
 # 💫 About Me:
 Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <br>AWS, GCP, and Azure ☁️  <br>Interested in DevOps, automation, and CI/CD pipelines, with hands-on experience in  <br>Python, Java, SQL, Power BI, and Apache Spark 🚀<br>
 
