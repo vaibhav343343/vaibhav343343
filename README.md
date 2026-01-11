@@ -22,12 +22,14 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ---
 
-## 📈 GitHub Stats
-
-![Vaibhav's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=dark&cache_seconds=1800)
+💡 *"Building the future, one deployment at a time."*
 
 ---
 
-## 🧠 Top Languages
+### 👀 Profile Views
+![Profile Views](https://komarev.com/ghpvc/?username=vaibhav343343&color=blue&style=flat)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&theme=dark&cache_seconds=1800)
+---
+
+### ⭐ GitHub Followers
+![GitHub Followers](https://img.shields.io/github/followers/vaibhav343343?label=Follow&style=social)
