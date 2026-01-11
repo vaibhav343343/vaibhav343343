@@ -24,7 +24,8 @@ Hi there! 👋 I'm a Cloud Computing student exploring cloud architecture on  <b
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav343343)
+
 
 ---
 
