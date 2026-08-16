@@ -90,7 +90,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&title=Stars,Followers,Commits,Repositories,Issues,PullRequest,Reviews" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=darkhub&no-frame=true&no-bg=true&column=6&margin-w=10" alt="GitHub Trophies"/>
 
 </div>
 
