@@ -1,0 +1,42 @@
+name: Generate 3D Contribution Calendar
+
+on:
+  schedule:
+    # Runs once a day at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Generate 3D Profile
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D Contribution Calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: vaibhav343343
+          # Settings file optional — defaults produce the night-rainbow theme shown in README
+          SETTING_JSON: |
+            {
+              "type": "night-rainbow",
+              "animate": true,
+              "angle": 35
+            }
+
+      - name: Push 3D profile to "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: profile-3d-contrib
+          keep_history: true
+          commit_message: "chore: update 3D contribution calendar [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
