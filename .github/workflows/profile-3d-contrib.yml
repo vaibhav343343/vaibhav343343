@@ -10,41 +10,27 @@ permissions:
 
 jobs:
   build:
-    name: Generate 3D Profile
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Generate 3D Contribution Calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: vaibhav343343
 
-      - name: Push SVGs to output branch
+      - name: Push to output branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Save generated files to /tmp
           cp -r profile-3d-contrib /tmp/3d-output
-
-          # Checkout output branch (create if missing)
           git fetch origin
           git checkout output 2>/dev/null || git checkout --orphan output
-
-          # If output branch is new (orphan), clear the working tree
           git reset --hard origin/output 2>/dev/null || git rm -rf . --quiet 2>/dev/null || true
-
-          # Copy SVGs back
           mkdir -p profile-3d-contrib
           cp -r /tmp/3d-output/. profile-3d-contrib/
-
           git add profile-3d-contrib/
           git diff --cached --quiet && echo "No changes" || git commit -m "chore: update 3D calendar [skip ci]"
           git push origin output
