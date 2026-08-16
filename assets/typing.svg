@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="800" height="60">
+  <defs>
+    <style>
+      .t {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 21px;
+        font-weight: 700;
+        fill: #58a6ff;
+        text-anchor: middle;
+        opacity: 0;
+      }
+      .cursor {
+        fill: #58a6ff;
+        animation: blink 0.8s step-end infinite;
+      }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .t1 { animation: show 21s 0s  infinite; }
+      .t2 { animation: show 21s 3s  infinite; }
+      .t3 { animation: show 21s 6s  infinite; }
+      .t4 { animation: show 21s 9s  infinite; }
+      .t5 { animation: show 21s 12s infinite; }
+      .t6 { animation: show 21s 15s infinite; }
+      .t7 { animation: show 21s 18s infinite; }
+
+      @keyframes show {
+        0%, 100% { opacity: 0; }
+        8%, 85%  { opacity: 1; }
+      }
+    </style>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <text class="t t1" x="400" y="40" filter="url(#glow)">👋 Hey! I'm Vaibhav Sudrik</text>
+  <text class="t t2" x="400" y="40" filter="url(#glow)">🤖 Aspiring Data Scientist</text>
+  <text class="t t3" x="400" y="40" filter="url(#glow)">🧪 AI / ML &amp; Generative AI Explorer</text>
+  <text class="t t4" x="400" y="40" filter="url(#glow)">🐍 Python • Pandas • NumPy • SQL</text>
+  <text class="t t5" x="400" y="40" filter="url(#glow)">🐘 Hadoop • Hive • Apache Spark</text>
+  <text class="t t6" x="400" y="40" filter="url(#glow)">☁️ AWS DevOps • Cloud Graduate</text>
+  <text class="t t7" x="400" y="40" filter="url(#glow)">📊 Power BI • Data Visualization 🚀</text>
+</svg>
