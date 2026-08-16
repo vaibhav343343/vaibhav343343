@@ -1,176 +1,131 @@
 <div align="center">
 
-# ⚡ VAIBHAV SUDRIK
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9a7&height=220&section=header&text=Hi%20There,%20I'm%20Vaibhav%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Data%20Scientist%20|%20AI/ML%20&%20Gen%20AI%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=Data+Science+%7C+AI%2FML+%7C+GenAI;Cloud+Engineering+%7C+AWS+%7C+DevOps;Building+Intelligent+Cloud-Native+Systems;AI+%2B+Cloud+%2B+Automation+%F0%9F%9A%80"/>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=vaibhav343343&style=for-the-badge&color=00E5FF&label=PROFILE+VIEWS"/>
-
-<img src="https://img.shields.io/github/followers/vaibhav343343?style=for-the-badge&color=111827&label=FOLLOWERS"/>
-
-<img src="https://img.shields.io/github/stars/vaibhav343343?style=for-the-badge&color=111827&label=STARS"/>
-
-<br><br>
-
-<a href="https://github.com/vaibhav343343">
-<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00C9A7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=90&lines=Aspiring+Data+Scientist+%F0%9F%93%8A;AI+%2F+ML+%26+Gen+AI+Enthusiast+%F0%9F%A4%96;Python+%E2%80%A2+SQL+%E2%80%A2+Power+BI+%E2%80%A2+Spark+%E2%80%A2+AWS+%E2%98%81%EF%B8%8F;Turning+Raw+Data+into+Real+Insights+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<br/>
 
-<a href="mailto:vaibhavsudrik2005@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://clickfront.tech/">
-<img src="https://img.shields.io/badge/CLICKFRONT-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black"/>
-</a>
+<img src="https://komarev.com/ghpvc/?username=vaibhav343343&label=Profile%20Views&color=00c9a7&style=for-the-badge" alt="profile views"/>
+<img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=for-the-badge&color=0f2027" alt="followers"/>
+<img src="https://img.shields.io/badge/Open%20to-Work-brightgreen?style=for-the-badge" alt="open to work"/>
 
 </div>
 
----
+<br/>
+
+## 🧭 About Me
+
+```yaml
+role: Aspiring Data Scientist
+focus: [AI/ML, Generative AI, Big Data, Cloud Computing]
+education: Cloud Computing Graduate
+currently_exploring: "Turning messy real-world data into decisions that matter"
+fun_fact: "I speak fluent Python and broken SQL jokes 😅"
+```
+
+- 🔭 Building end-to-end **ML / Gen AI** projects — from data pipelines to deployed models
+- 📊 Comfortable across the full data stack: collection → cleaning → analysis → visualization → modeling
+- ☁️ Exploring **AWS DevOps & Cloud Computing** to ship data products, not just notebooks
+- 🌱 Currently leveling up in **Big Data (Hadoop • Hive • Spark)** and **Generative AI**
+- 💬 Ask me about Python, Pandas/NumPy, SQL, Power BI, or Spark
+- ⚡ Fun fact: I debug by talking to my rubber duck... which is secretly a Jupyter kernel
+
+<br/>
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-## 🧠 ABOUT ME
+<img src="https://skillicons.dev/icons?i=py,sklearn,tensorflow,pytorch,mysql,postgres,aws,git,github,vscode,linux,docker&theme=dark" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=900&color=7C3AED&center=true&vCenter=true&width=750&lines=Data+Science+%7C+AI%2FML+%7C+GenAI+Explorer;Cloud+Engineering+%7C+AWS+%7C+DevOps;Python+%7C+PySpark+%7C+SQL+%7C+Power+BI;Building+Real-World+Projects+%F0%9F%94%A5"/>
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-000000?style=for-the-badge&logo=githubactions&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
+<br/>
 
-🚀 TECHNOLOGY STACK
-<div align="center">
-☁️ CLOUD & DEVOPS
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,jenkins,githubactions,terraform,linux&perline=8"/>
+## 📊 GitHub Stats & Activity
 
-<br><br>
-
-🤖 AI / MACHINE LEARNING
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn&perline=8"/>
-
-<br><br>
-
-📊 DATA & DATABASE
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&perline=8"/>
-
-<br><br>
-
-⚙️ DEVELOPMENT
-<img src="https://skillicons.dev/icons?i=git,github,vscode,react,nodejs,fastapi&perline=8"/> </div>
-📊 GITHUB ANALYTICS
-<div align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=transparent&title_color=00E5FF&icon_color=00E5FF&text_color=FFFFFF&bg_color=00000000"/> <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&hide_border=true&theme=transparent&title_color=00E5FF&text_color=FFFFFF&bg_color=00000000"/>
-
-<br><br>
-
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhav343343&theme=transparent&hide_border=true&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF&sideLabels=FFFFFF&dates=FFFFFF&background=00000000"/> </div>
-📈 LIVE GITHUB CONTRIBUTION GRAPH
-<div align="center"> <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&bg_color=00000000&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&custom_title=VAIBHAV%20SUDRIK%20-%20LIVE%20CONTRIBUTION%20ACTIVITY"/> </div>
-🏆 GITHUB TROPHIES
-<div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=2&column=4"/> </div>
-📊 CONTRIBUTION OVERVIEW
-<div align="center"> <img src="https://github-contributor-stats.vercel.app/api?username=vaibhav343343&limit=5&theme=dark&combine_all_yearly_contributions=true"/> </div>
-🔥 GITHUB ACTIVITY
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&custom_title=My%20GitHub%20Activity&hide_border=true&area=true&line=00E5FF&point=FFFFFF&color=FFFFFF&bg_color=0D1117"/> </div>
-🤖 AI / ML
-<div align="center">
-🧠 Machine Learning	✨ Generative AI	🧩 LLMs	⚡ AI Agents
-Predictive Models	GenAI Apps	LLM Apps	Intelligent Automation
-XGBoost	RAG	Prompt Engineering	Agentic AI
-Explainable AI	AI APIs	Embeddings	AI Workflows
-</div>
-☁️ CLOUD ENGINEERING
 <div align="center">
 
-AWS • EC2 • S3 • Lambda • DynamoDB • EventBridge
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00c9a7&icon_color=00c9a7&text_color=c9d1d9&count_private=true" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhav343343&theme=tokyonight&hide_border=true&background=0d1117&ring=00c9a7&fire=00c9a7&currStreakLabel=00c9a7" />
 
-<br>
+<br/>
 
-Docker • Kubernetes • Jenkins • GitHub Actions • Terraform
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00c9a7&text_color=c9d1d9" />
+
+<br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00c9a7&line=00c9a7&point=ffffff" />
 
 </div>
-📊 DATA SCIENCE
+
+<br/>
+
+<!--START_SECTION:activity-->
+<!--
+  This section auto-fills with your last 5 GitHub events once you add the
+  "jamesgeorge007/github-activity-readme" GitHub Action to this repo
+  (see setup notes at the bottom of this file).
+-->
+<!--END_SECTION:activity-->
+
+## 🐍 Contribution Snake
+
 <div align="center">
 
-Python • NumPy • Pandas • SQL • PySpark • Power BI
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+
+<sub>⚠️ Generates automatically once the snake GitHub Action is enabled — see setup notes below 👇</sub>
 
 </div>
-🏗️ FEATURED PROJECTS
-<div align="center"> <table> <tr> <td width="50%">
-☁️ Cloud-Native CI/CD
 
-Automated deployment pipeline using modern DevOps architecture.
+<br/>
 
-Stack
+## 🏆 GitHub Trophies
 
-AWS Docker Kubernetes Jenkins GitHub
-
-</td> <td width="50%">
-🧠 Clinical Risk Prediction
-
-Machine learning system with explainability and interactive analytics.
-
-Stack
-
-Python XGBoost SHAP MLflow Streamlit
-
-</td> </tr> <tr> <td width="50%">
-⚡ Event-Driven AWS App
-
-Cloud-native event-driven application using AWS services.
-
-Stack
-
-Lambda DynamoDB EventBridge AWS
-
-</td> <td width="50%">
-🌐 ClickFront
-
-Modern web solutions and digital experiences for businesses.
-
-Stack
-
-React Vite Cloudflare GitHub
-
-</td> </tr> </table> </div>
-🎯 CURRENT FOCUS
-<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2500&pause=700&color=00E5FF&center=true&vCenter=true&width=800&lines=Advanced+Machine+Learning;Generative+AI+%26+LLMs;AI+Agents+%26+Automation;Data+Science;AWS+Cloud+Architecture;Production+AI+Systems"/> </div>
-⚡ MY DEVELOPMENT LOOP
 <div align="center">
-        ┌───────────────┐
-        │     LEARN     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     BUILD     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     BREAK     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     DEBUG     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │    IMPROVE    │
-        └───────┬───────┘
-                ↓
-             REPEAT ♻️
-LEARN → BUILD → BREAK → DEBUG → IMPROVE → REPEAT
+<img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8" />
 </div>
-🌐 CONNECT WITH ME
-<div align="center"> <a href="https://github.com/vaibhav343343"> <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="mailto:vaibhavsudrik2005@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white"/> </a> <a href="https://clickfront.tech/"> <img src="https://img.shields.io/badge/CLICKFRONT-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black"/> </a> </div>
+
+<br/>
+
+## 🤝 Connect With Me
+
 <div align="center">
 
-"Don't just learn technology. Build something with it."
+<a href="https://github.com/vaibhav343343"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-<br> <img src="https://capsule-render.vercel.app/api?type=waving&color=00E5FF&height=140&section=footer"/>
-⭐ Thanks for visiting my profile!
-🚀 Keep Building • Keep Learning • Keep Scaling
-</div> ```
+<sub>Update the `#` links above with your real profile URLs.</sub>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9a7,50:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
+
+<div align="center">
+<sub>⭐ From <b>vaibhav343343</b> — thanks for stopping by! Data is just a story waiting to be told.</sub>
+</div>
