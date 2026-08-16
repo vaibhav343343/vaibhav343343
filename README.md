@@ -88,7 +88,29 @@ fun_fact: "I speak fluent Python and broken SQL jokes 😅"
 <!--END_SECTION:activity-->
 
 ## 🐍 Contribution Snake
-
+name: generate-snake
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: vaibhav343343
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 <div align="center">
 
 <picture>
