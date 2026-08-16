@@ -5,9 +5,9 @@
   <img src="./assets/header.svg" width="100%" alt="Vaibhav Sudrik - Animated Header"/>
 </div>
 
-<!-- ═══ TYPING ANIMATION ═══ -->
+<!-- ═══ TYPING ANIMATION — local SVG, always loads ═══ -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=🤖+Aspiring+Data+Scientist;🧪+AI+%2F+ML+%26+Generative+AI+Explorer;🐍+Python+•+Pandas+•+NumPy+•+SQL;🐘+Hadoop+•+Hive+•+Apache+Spark;☁️+AWS+DevOps+•+Cloud+Graduate;📊+Power+BI+•+Data+Visualization;🚀+Turning+Data+into+Decisions!" alt="Typing SVG" />
+  <img src="./assets/typing.svg" width="800" alt="Typing Animation"/>
 </div>
 
 <br/>
@@ -58,7 +58,7 @@
 </td>
 <td valign="top" width="48%" align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="Data Science Animation"/>
+<img src="./assets/ai_animation.svg" width="320" alt="AI Neural Network Animation"/>
 
 <br/>
 
@@ -181,7 +181,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=algolia&no-frame=true&no-bg=true&margin-w=6&row=1&column=7"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=6"/>
 </div>
 
 ---

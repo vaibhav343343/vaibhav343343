@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" width="340" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f2040"/>
+    </linearGradient>
+    <radialGradient id="nodeBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <radialGradient id="nodePurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <radialGradient id="nodeGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="340" height="260" rx="14" fill="url(#bg)" stroke="#1f6feb" stroke-width="1.2"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#161b22" stroke-width="0.6" opacity="0.8">
+    <line x1="0" y1="52" x2="340" y2="52"/><line x1="0" y1="104" x2="340" y2="104"/>
+    <line x1="0" y1="156" x2="340" y2="156"/><line x1="0" y1="208" x2="340" y2="208"/>
+    <line x1="68" y1="0" x2="68" y2="260"/><line x1="136" y1="0" x2="136" y2="260"/>
+    <line x1="204" y1="0" x2="204" y2="260"/><line x1="272" y1="0" x2="272" y2="260"/>
+  </g>
+
+  <!-- ═══ NEURAL NETWORK CONNECTIONS ═══ -->
+  <!-- Input → Hidden1 -->
+  <g stroke="#1f6feb" stroke-width="0.7" opacity="0.25">
+    <line x1="50" y1="68"  x2="130" y2="85"/>  <line x1="50" y1="68"  x2="130" y2="128"/>
+    <line x1="50" y1="68"  x2="130" y2="171"/>
+    <line x1="50" y1="110" x2="130" y2="85"/>  <line x1="50" y1="110" x2="130" y2="128"/>
+    <line x1="50" y1="110" x2="130" y2="171"/>
+    <line x1="50" y1="152" x2="130" y2="85"/>  <line x1="50" y1="152" x2="130" y2="128"/>
+    <line x1="50" y1="152" x2="130" y2="171"/>
+    <line x1="50" y1="194" x2="130" y2="85"/>  <line x1="50" y1="194" x2="130" y2="128"/>
+    <line x1="50" y1="194" x2="130" y2="171"/>
+  </g>
+  <!-- Hidden1 → Hidden2 pulsing -->
+  <g stroke="#7c3aed" stroke-width="0.7">
+    <line x1="142" y1="85"  x2="210" y2="100" opacity="0.2"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.1s" repeatCount="indefinite"/></line>
+    <line x1="142" y1="85"  x2="210" y2="148" opacity="0.2"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.5s" repeatCount="indefinite"/></line>
+    <line x1="142" y1="128" x2="210" y2="100" opacity="0.2"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.9s" repeatCount="indefinite"/></line>
+    <line x1="142" y1="128" x2="210" y2="148" opacity="0.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.3s" repeatCount="indefinite"/></line>
+    <line x1="142" y1="171" x2="210" y2="100" opacity="0.2"><animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.7s" repeatCount="indefinite"/></line>
+    <line x1="142" y1="171" x2="210" y2="148" opacity="0.2"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.0s" repeatCount="indefinite"/></line>
+  </g>
+  <!-- Hidden2 → Output pulsing -->
+  <g stroke="#3fb950" stroke-width="0.7">
+    <line x1="222" y1="100" x2="292" y2="120" opacity="0.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="1.8s" repeatCount="indefinite"/></line>
+    <line x1="222" y1="100" x2="292" y2="162" opacity="0.2"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.4s" repeatCount="indefinite"/></line>
+    <line x1="222" y1="148" x2="292" y2="120" opacity="0.2"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/></line>
+    <line x1="222" y1="148" x2="292" y2="162" opacity="0.2"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.7s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- ═══ DATA FLOW DOTS ═══ -->
+  <!-- Flow 1: input[0] → h1[0] → h2[0] → out[0] -->
+  <circle r="3.5" fill="#58a6ff" filter="url(#glow)">
+    <animateMotion dur="3s" repeatCount="indefinite"
+      path="M50,68 L130,85 L210,100 L292,120"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Flow 2: input[2] → h1[1] → h2[1] → out[1] -->
+  <circle r="3.5" fill="#a5d6ff" filter="url(#glow)">
+    <animateMotion dur="3.6s" begin="0.8s" repeatCount="indefinite"
+      path="M50,152 L130,128 L210,148 L292,162"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.6s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Flow 3: input[3] → h1[2] → h2[0] → out[0] -->
+  <circle r="3" fill="#d2a8ff" filter="url(#glow)">
+    <animateMotion dur="2.8s" begin="1.5s" repeatCount="indefinite"
+      path="M50,194 L130,171 L210,100 L292,120"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.8s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═══ INPUT LAYER NODES ═══ -->
+  <circle cx="50" cy="68"  r="9" fill="url(#nodeBlue)" stroke="#58a6ff" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="110" r="9" fill="url(#nodeBlue)" stroke="#58a6ff" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="152" r="9" fill="url(#nodeBlue)" stroke="#58a6ff" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="1.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="194" r="9" fill="url(#nodeBlue)" stroke="#58a6ff" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═══ HIDDEN LAYER 1 ═══ -->
+  <circle cx="136" cy="85"  r="9" fill="url(#nodePurple)" stroke="#7c3aed" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="2.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="136" cy="128" r="9" fill="url(#nodePurple)" stroke="#7c3aed" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="136" cy="171" r="9" fill="url(#nodePurple)" stroke="#7c3aed" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;11;9" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═══ HIDDEN LAYER 2 ═══ -->
+  <circle cx="216" cy="100" r="9" fill="url(#nodePurple)" stroke="#a371f7" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;12;9" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="216" cy="148" r="9" fill="url(#nodePurple)" stroke="#a371f7" stroke-width="1.8" filter="url(#softGlow)">
+    <animate attributeName="r" values="9;12;9" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═══ OUTPUT LAYER ═══ -->
+  <circle cx="296" cy="120" r="10" fill="url(#nodeGreen)" stroke="#3fb950" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="r" values="10;13;10" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="296" cy="162" r="10" fill="url(#nodeGreen)" stroke="#3fb950" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="r" values="10;13;10" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;3;2" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═══ LAYER LABELS ═══ -->
+  <text x="50"  y="220" text-anchor="middle" font-family="monospace" font-size="9" fill="#58a6ff" opacity="0.8">Input</text>
+  <text x="136" y="197" text-anchor="middle" font-family="monospace" font-size="9" fill="#a371f7" opacity="0.8">Hidden</text>
+  <text x="216" y="174" text-anchor="middle" font-family="monospace" font-size="9" fill="#a371f7" opacity="0.8">Hidden</text>
+  <text x="296" y="188" text-anchor="middle" font-family="monospace" font-size="9" fill="#3fb950" opacity="0.8">Output</text>
+
+  <!-- ═══ TITLE ═══ -->
+  <text x="170" y="243" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#58a6ff" filter="url(#softGlow)">
+    🤖 Neural Network · AI/ML
+  </text>
+
+  <!-- ═══ FLOATING PARTICLES ═══ -->
+  <circle r="2" fill="#58a6ff" opacity="0.5">
+    <animate attributeName="cx" values="20;35;18;20" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="20;35;15;20" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.8;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.5" fill="#d2a8ff" opacity="0.5">
+    <animate attributeName="cx" values="310;295;320;310" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="25;40;18;25" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.3;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.5" fill="#3fb950" opacity="0.5">
+    <animate attributeName="cx" values="170;185;160;170" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="15;30;10;15" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.2;0.3" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
