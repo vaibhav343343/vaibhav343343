@@ -8,14 +8,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A9FEF7&center=true&vCenter=true&width=600&lines=Building+intelligent+systems+%F0%9F%A4%96;Exploring+Gen+AI+%26+LLMs+%F0%9F%A7%A0;Python+%7C+ML+%7C+Deep+Learning+%7C+MLOps;Cloud+%7C+AWS+%7C+DevOps+%7C+Spark;Turning+data+into+decisions+%F0%9F%93%8A" alt="Typing SVG" />
 </a>
 
-<br/>
-
-<!-- PROFILE PHOTO -->
-<img src="https://github.com/vaibhav343343.png" width="140" style="border-radius: 50%; border: 3px solid #a9fef7;" alt="Vaibhav's Profile Photo"/>
-
-<br/>
-<br/>
-
 <!-- SOCIAL BADGES -->
 [![GitHub](https://img.shields.io/badge/GitHub-vaibhav343343-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaibhav343343)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaibhav-sudrik-aa59ab34a)
