@@ -1,73 +1,68 @@
-<!-- Header Banner with Wave Animation -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--         ANIMATED HEADER — hosted in this repo (always loads) -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,24,30&height=250&section=header&text=Vaibhav%20Sudrik&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Aspiring%20Data%20Scientist%20%7C%20AI%2FML%20%7C%20Gen%20AI%20%7C%20Cloud%20%26%20Big%20Data&descSize=18&descColor=adbac7&descAlignY=62" />
+  <img src="./assets/header.svg" width="100%" alt="Vaibhav Sudrik - Animated Header"/>
 </div>
 
-<!-- Typing Animation -->
+<!-- ═══ TYPING ANIMATION ═══ -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=👋+Hey+there!+I'm+Vaibhav;🤖+AI+%2F+ML+%26+Generative+AI+Explorer;🐍+Python+•+Pandas+•+NumPy+•+SQL;🐘+Hadoop+•+Hive+•+Apache+Spark;☁️+AWS+DevOps+•+Cloud+Graduate;📊+Power+BI+•+Data+Visualization;🚀+Turning+Data+into+Decisions!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=🤖+Aspiring+Data+Scientist;🧪+AI+%2F+ML+%26+Generative+AI+Explorer;🐍+Python+•+Pandas+•+NumPy+•+SQL;🐘+Hadoop+•+Hive+•+Apache+Spark;☁️+AWS+DevOps+•+Cloud+Graduate;📊+Power+BI+•+Data+Visualization;🚀+Turning+Data+into+Decisions!" alt="Typing SVG" />
 </div>
 
 <br/>
 
-<!-- Badges Row -->
+<!-- ═══ PROFILE BADGES ═══ -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=vaibhav343343&label=Profile+Views&color=58a6ff&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=vaibhav343343&label=Profile+Views&color=58a6ff&style=flat-square" alt="views"/>
   &nbsp;
-  <img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=flat-square&color=58a6ff" />
+  <img src="https://img.shields.io/github/followers/vaibhav343343?label=Followers&style=flat-square&color=58a6ff" alt="followers"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Focus-Data%20Science%20%26%20AI-58a6ff?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Data%20Science%20%26%20AI%2FML-58a6ff?style=flat-square" alt="focus"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Lives-India%20🇮🇳-58a6ff?style=flat-square" />
+  <img src="https://img.shields.io/badge/Location-India%20🇮🇳-58a6ff?style=flat-square" alt="location"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2ea44f?style=flat-square" alt="status"/>
 </div>
 
 <br/>
 
 ---
 
-<!-- ABOUT ME with GIF side by side -->
 ## 🧑‍💻 About Me
 
 <table>
 <tr>
-<td valign="top" width="55%">
+<td valign="top" width="52%">
 
-### Hi, I'm Vaibhav! 👋
+### Hi there! I'm Vaibhav 👋
 
-🎓 **Cloud Computing Graduate** transitioning into the world of **Data Science & AI**
+🎓 **Cloud Computing Graduate** now diving deep into **Data Science & AI**
 
-🤖 Passionate about **AI/ML & Generative AI** — building intelligent systems that matter
+🤖 Passionate about **AI/ML & Generative AI** — building intelligent systems
 
-📊 Turning raw data into powerful insights using **Python, Pandas, NumPy & Power BI**
+📊 Crafting insights with **Python, Pandas, NumPy & Power BI**
 
-🐘 Hands-on with **Big Data** — **Hadoop, Hive & Apache Spark**
+🐘 Big Data expertise — **Hadoop · Hive · Apache Spark · Kafka**
 
-☁️ Solid background in **AWS DevOps**, cloud architecture — AWS · Azure · GCP
+☁️ **AWS DevOps** background — Docker, Kubernetes, CI/CD pipelines
 
-🔧 CI/CD pipelines, automation, Docker, Kubernetes
+🌱 Currently mastering **LLMs, Prompt Engineering & MLOps**
 
-🌱 Currently exploring **LLMs, Prompt Engineering & MLOps**
+💬 Ask me about **Data Science, Cloud, Python, or DevOps!**
 
-📫 Reach me at **vaibhavsudrik2005@gmail.com**
+📫 **vaibhavsudrik2005@gmail.com**
 
 ⚡ *Fun fact: I speak Python better than English!* 😄
 
 </td>
-<td valign="top" width="45%" align="center">
+<td valign="top" width="48%" align="center">
 
-<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="320" alt="Coding GIF"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="Data Science Animation"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/Status-Building%20%26%20Learning-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white"/>
-
-<br/><br/>
-
-```
-💡 "In God we trust,
-    all others bring data."
-         — W. Edwards Deming
-```
+![Status](https://img.shields.io/badge/🚀_Building_&_Learning-Always-58a6ff?style=for-the-badge)
 
 </td>
 </tr>
@@ -93,15 +88,11 @@
 ### 🤖 AI · Machine Learning · Data Science
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn&perline=4&theme=dark" />
-</div>
-<br/>
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" height="45"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
   <img src="https://img.shields.io/badge/NumPy-4DABCF?style=for-the-badge&logo=numpy&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white"/>
@@ -135,7 +126,7 @@
 ### ☁️ Cloud & DevOps
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,terraform,github&perline=8&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,terraform,github&theme=dark" height="45"/>
 </div>
 <br/>
 <div align="left">
@@ -154,7 +145,7 @@
 ### 💻 Languages & Core Tools
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=c,java,bash,git,linux,vscode&perline=6&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,java,bash,git,linux,vscode&theme=dark" height="45"/>
 </div>
 <br/>
 <div align="left">
@@ -173,16 +164,16 @@
 <div align="center">
 
 <a href="https://github.com/vaibhav343343">
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
 </a>
 <a href="https://github.com/vaibhav343343">
-  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&langs_count=8&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&langs_count=8&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117"/>
 </a>
 
-</div>
+<br/><br/>
 
-<div align="center">
-  <img width="68%" src="https://streak-stats.demolab.com?user=vaibhav343343&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&border=0d1117" />
+<img width="68%" src="https://streak-stats.demolab.com?user=vaibhav343343&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&border=0d1117"/>
+
 </div>
 
 ---
@@ -190,7 +181,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=algolia&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=algolia&no-frame=true&no-bg=true&margin-w=6&row=1&column=7"/>
 </div>
 
 ---
@@ -198,39 +189,39 @@
 ## 📊 Contribution Graph
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area_color=1f6feb&area=true&hide_border=true&custom_title=Vaibhav's%20Contribution%20Graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area_color=1f6feb&area=true&hide_border=true&custom_title=Vaibhav's%20Contribution%20Graph"/>
 </div>
 
 ---
 
-## 🗺️ My Data Science Journey
+## 🗺️ My Tech Journey
 
 <div align="center">
 
-| Stage | Technologies | Status |
-|-------|-------------|--------|
-| 🎓 Cloud Computing Grad | AWS · Azure · GCP · CI/CD | ✅ Done |
-| 🔧 DevOps & Automation | Docker · Kubernetes · Jenkins · Terraform | ✅ Done |
-| 🐘 Big Data | Hadoop · Hive · Apache Spark · Kafka | ✅ Done |
+| 🏁 Stage | ⚡ Technologies | 📌 Status |
+|:---|:---|:---:|
+| 🎓 Cloud Computing Graduate | AWS · Azure · GCP · Networking | ✅ Done |
+| 🔧 DevOps & Automation | Docker · Kubernetes · Jenkins · Terraform · CI/CD | ✅ Done |
+| 🐘 Big Data Engineering | Hadoop · Hive · Apache Spark · Kafka | ✅ Done |
 | 🐍 Data Science Core | Python · Pandas · NumPy · SQL · Power BI | 🔄 Active |
-| 🤖 AI / ML | Machine Learning · Deep Learning · TensorFlow | 🔄 Active |
-| 🌟 Gen AI & LLMs | Prompt Engineering · RAG · LangChain | 🚀 Learning |
+| 🤖 Machine Learning | Scikit-Learn · TensorFlow · Keras · Deep Learning | 🔄 Active |
+| 🌟 Gen AI & LLMs | Prompt Engineering · RAG · LangChain · Agents | 🚀 Exploring |
 
 </div>
 
 ---
 
-## 💡 Currently Working On
+## 💡 What I'm Currently Building
 
 <div align="center">
 
-| 🔬 ML Models | 🤖 Gen AI & LLMs | 📊 Power BI |
+| 🔬 ML Projects | 🤖 Gen AI & LLMs | 📊 Power BI Dashboards |
 |:---:|:---:|:---:|
-| Real-world ML projects | Prompt Engineering & RAG | Interactive dashboards |
+| Real-world ML models from scratch | Prompt Engineering & RAG pipelines | Interactive BI reports |
 
-| 🌩️ AWS Data Pipelines | 📚 Statistics & Math | 🔥 Apache Spark |
+| 🌩️ AWS Data Pipelines | 📚 Statistics & Math | 🔥 Spark Big Data |
 |:---:|:---:|:---:|
-| Scalable cloud pipelines | Math for Data Science | Big Data processing |
+| Scalable cloud data architecture | Mathematical foundations for DS | Distributed data processing |
 
 </div>
 
@@ -238,20 +229,16 @@
 
 <div align="center">
 
-### 💬 Dev Quote
+### 💬 Dev Quote of the Day
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 </div>
 
 ---
 
-<!-- Footer -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--        ANIMATED FOOTER — hosted in this repo (always loads) -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,24,30&height=130&section=footer&animation=fadeIn" />
-
-**🌟 "Data is the new oil — I'm here to refine it into gold." 🌟**
-
-*⭐ If my work inspires you, drop a star on my repos! It means the world 🙏*
-
+  <img src="./assets/footer.svg" width="100%" alt="Footer"/>
 </div>
