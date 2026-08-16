@@ -42,51 +42,7 @@
 
 </div>
 
-```python
-class VaibhavSudrik:
 
-    def __init__(self):
-
-        self.name = "Vaibhav Sudrik"
-
-        self.role = [
-            "Data Science Explorer",
-            "AI / ML Enthusiast",
-            "GenAI Explorer",
-            "Cloud Engineer"
-        ]
-
-        self.education = "B.Sc. Cloud Engineering"
-
-        self.location = "India 🇮🇳"
-
-        self.languages = [
-            "Python",
-            "SQL"
-        ]
-
-        self.data = [
-            "NumPy",
-            "Pandas",
-            "PySpark",
-            "Power BI"
-        ]
-
-        self.ai = [
-            "Machine Learning",
-            "Generative AI",
-            "LLMs",
-            "AI Agents"
-        ]
-
-        self.cloud = [
-            "AWS",
-            "Docker",
-            "Kubernetes",
-            "CI/CD"
-        ]
-
-        self.goal = "Build intelligent systems that scale 🚀"
 🚀 TECHNOLOGY STACK
 <div align="center">
 ☁️ CLOUD & DEVOPS
