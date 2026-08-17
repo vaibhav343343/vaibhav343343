@@ -68,12 +68,6 @@
 
 </div>
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav343343&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=a9fef7&text_color=cdd6f4&langs_count=8" alt="Top Languages"/>
-
-</div>
-
 ---
 
 ## 📈 Contribution Activity
@@ -81,16 +75,6 @@
 <div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&bg_color=0d1117&color=a9fef7&line=533483&point=c792ea&area=true&hide_border=true&area_color=0f3460" width="95%" alt="Contribution Graph"/>
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=vaibhav343343&theme=darkhub&no-frame=true&no-bg=true&column=6&margin-w=10" alt="GitHub Trophies"/>
 
 </div>
 
