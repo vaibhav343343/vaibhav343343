@@ -110,3 +110,23 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:533483,50:0f3460,100:0d1117&height=120&section=footer&text=Let's%20build%20something%20amazing!&fontSize=18&fontColor=a9fef7&fontAlignY=65&animation=fadeIn" width="100%"/>
 
 </div>
+
+## 📊 Contribution Activity
+
+<div align="center">
+
+<!-- GitHub Activity Graph -->
+<a href="https://github.com/vaibhav343343">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&theme=react-dark&hide_border=true&area=true&custom_title=Vaibhav%20Sudrik%20-%20GitHub%20Activity" width="100%"/>
+</a>
+
+<br/>
+
+<!-- Contribution Snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
