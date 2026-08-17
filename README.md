@@ -61,12 +61,13 @@
 ## 📊 GitHub Stats
 
 <div align="center">
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=a9fef7&icon_color=c792ea&text_color=cdd6f4&ring_color=533483" height="165" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhav343343&theme=synthwave&hide_border=true&background=0d1117&stroke=a9fef7&ring=533483&fire=c792ea&currStreakLabel=a9fef7&sideLabels=cdd6f4&dates=cdd6f4" height="165" alt="GitHub Streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=vaibhav343343&show_icons=true&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=a9fef7&icon_color=c792ea&text_color=cdd6f4" height="170"/>
 
-</div>
+<img src="https://streak-stats.demolab.com?user=vaibhav343343&theme=synthwave&hide_border=true&background=0d1117&stroke=a9fef7&ring=533483&fire=c792ea&currStreakLabel=a9fef7&sideLabels=cdd6f4&dates=cdd6f4" height="170"/>
+
+</div></div>
 
 ---
 
