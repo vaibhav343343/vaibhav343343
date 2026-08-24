@@ -1,88 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
   <defs>
-    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#050d1a;#130d28;#0d1117" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="40%" stop-color="#0f3460">
-        <animate attributeName="stop-color" values="#0f3460;#1a1a2e;#0a2050;#0f3460" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#020408">
-        <animate attributeName="stop-color" values="#020408;#0d1117;#060118;#020408" dur="12s" repeatCount="indefinite"/>
-      </stop>
+    <!-- Clean dark gradient background -->
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
 
-    <filter id="fGlow">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="fSoftGlow">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <!-- Subtle accent line gradient -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#2f81f7"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background wave-in from top -->
-  <path d="M0,0 Q220,35 450,12 Q680,-12 900,0 L900,160 L0,160 Z" fill="url(#fBg)"/>
+  <!-- Background -->
+  <rect width="900" height="120" fill="url(#footerBg)"/>
 
-  <!-- Secondary wave shimmer -->
-  <path d="M0,0 Q300,18 600,8 Q780,-5 900,0 L900,30 L0,25 Z" fill="#0f3460" opacity="0.3">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 15,0; -15,0; 0,0" dur="7s" repeatCount="indefinite"/>
-  </path>
+  <!-- Subtle grid texture — very faint -->
+  <g stroke="#21262d" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="40"  x2="900" y2="40"/>
+    <line x1="0" y1="80"  x2="900" y2="80"/>
+    <line x1="225" y1="0" x2="225" y2="120"/>
+    <line x1="450" y1="0" x2="450" y2="120"/>
+    <line x1="675" y1="0" x2="675" y2="120"/>
+  </g>
 
-  <!-- Floating glow particles -->
-  <circle r="2.5" fill="#58a6ff" filter="url(#fSoftGlow)">
-    <animate attributeName="cx" values="105;135;92;105" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="100;78;118;100" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.1;0.9;0.7" dur="9s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#d2a8ff">
-    <animate attributeName="cx" values="808;778;825;808" dur="11s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="90;68;108;90" dur="11s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.2;0.95;0.8" dur="11s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="3" fill="#22d3ee" filter="url(#fSoftGlow)">
-    <animate attributeName="cx" values="455;485;438;455" dur="13s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="130;110;142;130" dur="13s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.95;0.35;0.6" dur="13s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="1.8" fill="#4ade80">
-    <animate attributeName="cx" values="250;278;235;250" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="55;35;70;55" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.3;0.5" dur="8s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#f59e0b" filter="url(#fSoftGlow)">
-    <animate attributeName="cx" values="660;635;675;660" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="45;28;60;45" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.2;0.9;0.7" dur="10s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Accent Line top -->
+  <rect x="225" y="0" width="450" height="1" fill="url(#accentLine)" opacity="0.5"/>
 
   <!-- Main Quote -->
-  <text x="450" y="70" text-anchor="middle"
-        font-family="'Segoe UI', 'Georgia', serif" font-size="17" font-weight="700" font-style="italic"
-        fill="#ffffff" filter="url(#fGlow)">
-    ✨  "Data is the new oil — I'm here to refine it into intelligence."  ✨
+  <text x="450" y="55" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400"
+        fill="#c9d1d9">
+    "Data is the new oil — I'm here to refine it into intelligence."
   </text>
-
-  <!-- Sub-message with pulsing opacity -->
-  <text x="450" y="102" text-anchor="middle"
-        font-family="'Segoe UI', monospace" font-size="13"
-        fill="#58a6ff">
-    ⭐ If my work inspired you, drop a star on my repos — it keeps the code flowing! 🙏
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
-  </text>
-
-  <!-- Divider line with animation -->
-  <rect x="220" y="116" width="460" height="1.5" rx="1" fill="#1f6feb" opacity="0.5">
-    <animate attributeName="width" values="460;380;460" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="220;260;220" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
 
   <!-- Social links text -->
-  <text x="450" y="140" text-anchor="middle"
-        font-family="'Segoe UI', monospace" font-size="11"
-        fill="#6e7681">
-    🌐 GitHub · LinkedIn · Kaggle · Gmail  |  Made with ❤️ by Vaibhav Sudrik
+  <text x="450" y="85" text-anchor="middle"
+        font-family="'Segoe UI', monospace" font-size="12"
+        fill="#8b949e">
+    GitHub  ·  LinkedIn  ·  Kaggle  ·  Email
+  </text>
+  
+  <!-- Subtle attribution -->
+  <text x="450" y="105" text-anchor="middle"
+        font-family="'Segoe UI', monospace" font-size="10"
+        fill="#484f58">
+    Vaibhav Sudrik © 2026
   </text>
 </svg>
