@@ -1,60 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
   <defs>
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#0a192f;#0d1117" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#0d1117;#050d1a;#130d28;#0d1117" dur="12s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#0f3460">
-        <animate attributeName="stop-color" values="#0f3460;#1a1a2e;#0f3460" dur="10s" repeatCount="indefinite"/>
+      <stop offset="40%" stop-color="#0f3460">
+        <animate attributeName="stop-color" values="#0f3460;#1a1a2e;#0a2050;#0f3460" dur="12s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#1a1a2e">
-        <animate attributeName="stop-color" values="#1a1a2e;#0d1117;#1a1a2e" dur="10s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#020408">
+        <animate attributeName="stop-color" values="#020408;#0d1117;#060118;#020408" dur="12s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <filter id="glow2">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+
+    <filter id="fGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="fSoftGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <!-- Top wave into footer -->
-  <path d="M0,0 Q225,30 450,10 Q675,-10 900,0 L900,140 L0,140 Z" fill="url(#footerBg)"/>
+  <!-- Background wave-in from top -->
+  <path d="M0,0 Q220,35 450,12 Q680,-12 900,0 L900,160 L0,160 Z" fill="url(#fBg)"/>
 
-  <!-- Floating particles -->
-  <circle r="2" fill="#58a6ff" filter="url(#glow2)">
-    <animate attributeName="cx" values="100;130;90;100" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="90;70;110;90" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.1;0.8;0.6" dur="8s" repeatCount="indefinite"/>
+  <!-- Secondary wave shimmer -->
+  <path d="M0,0 Q300,18 600,8 Q780,-5 900,0 L900,30 L0,25 Z" fill="#0f3460" opacity="0.3">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 15,0; -15,0; 0,0" dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Floating glow particles -->
+  <circle r="2.5" fill="#58a6ff" filter="url(#fSoftGlow)">
+    <animate attributeName="cx" values="105;135;92;105" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;78;118;100" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.1;0.9;0.7" dur="9s" repeatCount="indefinite"/>
   </circle>
-  <circle r="1.5" fill="#d2a8ff">
-    <animate attributeName="cx" values="800;770;820;800" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="80;60;100;80" dur="10s" repeatCount="indefinite"/>
+  <circle r="2" fill="#d2a8ff">
+    <animate attributeName="cx" values="808;778;825;808" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="90;68;108;90" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.2;0.95;0.8" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#22d3ee" filter="url(#fSoftGlow)">
+    <animate attributeName="cx" values="455;485;438;455" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="130;110;142;130" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.95;0.35;0.6" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.8" fill="#4ade80">
+    <animate attributeName="cx" values="250;278;235;250" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="55;35;70;55" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.3;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#f59e0b" filter="url(#fSoftGlow)">
+    <animate attributeName="cx" values="660;635;675;660" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="45;28;60;45" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.7;0.2;0.9;0.7" dur="10s" repeatCount="indefinite"/>
   </circle>
-  <circle r="2.5" fill="#79c0ff" filter="url(#glow2)">
-    <animate attributeName="cx" values="450;480;430;450" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="120;100;130;120" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.3;0.5" dur="12s" repeatCount="indefinite"/>
-  </circle>
 
-  <!-- Footer Quote -->
-  <text x="450" y="62" text-anchor="middle"
-        font-family="'Segoe UI', monospace" font-size="16" font-weight="700"
-        fill="#ffffff" filter="url(#glow2)">
-    ✨ "Data is the new oil — I'm here to refine it into gold." ✨
+  <!-- Main Quote -->
+  <text x="450" y="70" text-anchor="middle"
+        font-family="'Segoe UI', 'Georgia', serif" font-size="17" font-weight="700" font-style="italic"
+        fill="#ffffff" filter="url(#fGlow)">
+    ✨  "Data is the new oil — I'm here to refine it into intelligence."  ✨
   </text>
 
-  <!-- Star message -->
-  <text x="450" y="92" text-anchor="middle"
+  <!-- Sub-message with pulsing opacity -->
+  <text x="450" y="102" text-anchor="middle"
         font-family="'Segoe UI', monospace" font-size="13"
         fill="#58a6ff">
-    ⭐ If you found my work useful, star my repos! It motivates me to keep building 🙏
+    ⭐ If my work inspired you, drop a star on my repos — it keeps the code flowing! 🙏
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Animated bottom line -->
-  <rect x="200" y="108" width="500" height="1.5" rx="1" fill="#1f6feb" opacity="0.5">
-    <animate attributeName="width" values="500;400;500" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="200;250;200" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+  <!-- Divider line with animation -->
+  <rect x="220" y="116" width="460" height="1.5" rx="1" fill="#1f6feb" opacity="0.5">
+    <animate attributeName="width" values="460;380;460" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="220;260;220" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.5s" repeatCount="indefinite"/>
   </rect>
+
+  <!-- Social links text -->
+  <text x="450" y="140" text-anchor="middle"
+        font-family="'Segoe UI', monospace" font-size="11"
+        fill="#6e7681">
+    🌐 GitHub · LinkedIn · Kaggle · Gmail  |  Made with ❤️ by Vaibhav Sudrik
+  </text>
 </svg>

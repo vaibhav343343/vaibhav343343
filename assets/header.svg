@@ -1,186 +1,261 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
   <defs>
-    <!-- Animated background gradient -->
+    <!-- Animated deep-space background gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117">
+      <stop offset="0%" stop-color="#020408">
         <animate attributeName="stop-color"
-          values="#0d1117;#0a192f;#0d1117;#130d24;#0d1117"
-          dur="12s" repeatCount="indefinite"/>
+          values="#020408;#050d1a;#020408;#090318;#020408"
+          dur="15s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#0f3460">
+      <stop offset="45%" stop-color="#0d1f3c">
         <animate attributeName="stop-color"
-          values="#0f3460;#1a1a2e;#1a0533;#0f3460;#1a1a2e"
-          dur="12s" repeatCount="indefinite"/>
+          values="#0d1f3c;#0f3460;#1a0a40;#0d1f3c;#0f3460"
+          dur="15s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#1a1a2e">
+      <stop offset="100%" stop-color="#130d28">
         <animate attributeName="stop-color"
-          values="#1a1a2e;#0f3460;#0a192f;#0d1117;#1a1a2e"
-          dur="12s" repeatCount="indefinite"/>
+          values="#130d28;#0d1117;#1a0040;#130d28;#0d1117"
+          dur="15s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Glowing orb gradients -->
-    <radialGradient id="orb1Grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.5"/>
+    <!-- Vivid orb gradients -->
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.65"/>
+      <stop offset="60%" stop-color="#1f6feb" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="orb2Grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#9333ea" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="orb3Grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    <radialGradient id="orb3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Text glow filter -->
-    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+    <!-- Strong text glow -->
+    <filter id="nameGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur2"/>
       <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur2"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Soft glow filter -->
-    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+    <!-- Soft particle glow -->
+    <filter id="pGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Badge glow -->
+    <filter id="badgeGlow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip path for the whole SVG -->
+    <clipPath id="clip">
+      <rect width="900" height="320"/>
+    </clipPath>
   </defs>
 
   <!-- ─── Background ─── -->
-  <rect width="900" height="300" fill="url(#bgGrad)"/>
+  <rect width="900" height="320" fill="url(#bgGrad)" clip-path="url(#clip)"/>
 
-  <!-- ─── Glowing orbs ─── -->
-  <ellipse cx="180" cy="130" rx="200" ry="130" fill="url(#orb1Grad)">
-    <animate attributeName="cx" values="180;220;160;180" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="130;100;160;130" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="rx" values="200;240;180;200" dur="9s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <ellipse cx="720" cy="160" rx="170" ry="110" fill="url(#orb2Grad)">
-    <animate attributeName="cx" values="720;680;750;720" dur="11s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="160;130;190;160" dur="11s" repeatCount="indefinite"/>
-    <animate attributeName="rx" values="170;200;150;170" dur="11s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <ellipse cx="450" cy="260" rx="150" ry="60" fill="url(#orb3Grad)">
-    <animate attributeName="ry" values="60;80;50;60" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.5;1" dur="7s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <!-- ─── Floating particles ─── -->
-  <circle r="2.5" fill="#58a6ff" filter="url(#softGlow)">
-    <animate attributeName="cx" values="80;110;70;80" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="55;30;75;55" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.2;1;0.8" dur="8s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="1.8" fill="#79c0ff">
-    <animate attributeName="cx" values="820;790;840;820" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="70;45;90;70" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.3;0.6" dur="10s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="3" fill="#a5d6ff" filter="url(#softGlow)">
-    <animate attributeName="cx" values="420;460;400;420" dur="13s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="28;50;18;28" dur="13s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.3;0.5" dur="13s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#d2a8ff">
-    <animate attributeName="cx" values="650;620;670;650" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="230;205;250;230" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.2;0.9;0.7" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="1.5" fill="#58a6ff">
-    <animate attributeName="cx" values="150;180;135;150" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="240;215;260;240" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.4;0.5" dur="9s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2.5" fill="#79c0ff" filter="url(#softGlow)">
-    <animate attributeName="cx" values="760;740;790;760" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="240;220;265;240" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.4;0.6" dur="12s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#a5d6ff">
-    <animate attributeName="cx" values="300;330;280;300" dur="15s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="200;225;185;200" dur="15s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0.8;0.3;0.4" dur="15s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="1.5" fill="#d2a8ff" filter="url(#softGlow)">
-    <animate attributeName="cx" values="560;540;580;560" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="40;20;55;40" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.3;1;0.8" dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- ─── Decorative dot grid (data science theme) ─── -->
-  <g opacity="0.12" fill="#58a6ff">
-    <circle cx="30"  cy="30"  r="1.2"/><circle cx="60"  cy="30"  r="1.2"/><circle cx="90"  cy="30"  r="1.2"/>
-    <circle cx="30"  cy="55"  r="1.2"/><circle cx="60"  cy="55"  r="1.2"/><circle cx="90"  cy="55"  r="1.2"/>
-    <circle cx="810" cy="30"  r="1.2"/><circle cx="840" cy="30"  r="1.2"/><circle cx="870" cy="30"  r="1.2"/>
-    <circle cx="810" cy="55"  r="1.2"/><circle cx="840" cy="55"  r="1.2"/><circle cx="870" cy="55"  r="1.2"/>
-    <circle cx="30"  cy="240" r="1.2"/><circle cx="60"  cy="240" r="1.2"/><circle cx="90"  cy="240" r="1.2"/>
-    <circle cx="30"  cy="265" r="1.2"/><circle cx="60"  cy="265" r="1.2"/><circle cx="90"  cy="265" r="1.2"/>
-    <circle cx="810" cy="240" r="1.2"/><circle cx="840" cy="240" r="1.2"/><circle cx="870" cy="240" r="1.2"/>
-    <circle cx="810" cy="265" r="1.2"/><circle cx="840" cy="265" r="1.2"/><circle cx="870" cy="265" r="1.2"/>
+  <!-- ─── Matrix-style vertical data streams (background decoration) ─── -->
+  <g opacity="0.07" font-family="monospace" font-size="9" fill="#58a6ff" clip-path="url(#clip)">
+    <text x="25" y="0"><animate attributeName="y" values="-20;340" dur="7s" repeatCount="indefinite"/>10110</text>
+    <text x="70" y="0"><animate attributeName="y" values="-20;340" dur="5.5s" begin="1s" repeatCount="indefinite"/>01001</text>
+    <text x="120" y="0"><animate attributeName="y" values="-20;340" dur="9s" begin="0.5s" repeatCount="indefinite"/>11010</text>
+    <text x="175" y="0"><animate attributeName="y" values="-20;340" dur="6s" begin="2s" repeatCount="indefinite"/>00110</text>
+    <text x="220" y="0"><animate attributeName="y" values="-20;340" dur="8s" begin="0.3s" repeatCount="indefinite"/>10101</text>
+    <text x="680" y="0"><animate attributeName="y" values="-20;340" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>01110</text>
+    <text x="730" y="0"><animate attributeName="y" values="-20;340" dur="5s" begin="0.7s" repeatCount="indefinite"/>10011</text>
+    <text x="780" y="0"><animate attributeName="y" values="-20;340" dur="10s" begin="1.8s" repeatCount="indefinite"/>01101</text>
+    <text x="830" y="0"><animate attributeName="y" values="-20;340" dur="6.5s" begin="0.2s" repeatCount="indefinite"/>11001</text>
+    <text x="875" y="0"><animate attributeName="y" values="-20;340" dur="8.5s" begin="2.5s" repeatCount="indefinite"/>00101</text>
   </g>
 
+  <!-- ─── Glowing orbs ─── -->
+  <ellipse cx="160" cy="140" rx="230" ry="150" fill="url(#orb1)">
+    <animate attributeName="cx" values="160;210;140;160" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="140;105;165;140" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="230;270;200;230" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="740" cy="170" rx="200" ry="130" fill="url(#orb2)">
+    <animate attributeName="cx" values="740;695;765;740" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="170;135;200;170" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="200;240;175;200" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="450" cy="300" rx="180" ry="70" fill="url(#orb3)">
+    <animate attributeName="ry" values="70;90;55;70" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="450" cy="60" rx="120" ry="40" fill="url(#orb4)">
+    <animate attributeName="ry" values="40;55;35;40" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.4;0.6" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ─── Decorative corner dot grids ─── -->
+  <g opacity="0.18" fill="#58a6ff">
+    <circle cx="28"  cy="28"  r="1.3"/><circle cx="52"  cy="28"  r="1.3"/><circle cx="76"  cy="28"  r="1.3"/>
+    <circle cx="28"  cy="52"  r="1.3"/><circle cx="52"  cy="52"  r="1.3"/><circle cx="76"  cy="52"  r="1.3"/>
+    <circle cx="28"  cy="76"  r="1.3"/><circle cx="52"  cy="76"  r="1.3"/><circle cx="76"  cy="76"  r="1.3"/>
+    <circle cx="824" cy="28"  r="1.3"/><circle cx="848" cy="28"  r="1.3"/><circle cx="872" cy="28"  r="1.3"/>
+    <circle cx="824" cy="52"  r="1.3"/><circle cx="848" cy="52"  r="1.3"/><circle cx="872" cy="52"  r="1.3"/>
+    <circle cx="824" cy="76"  r="1.3"/><circle cx="848" cy="76"  r="1.3"/><circle cx="872" cy="76"  r="1.3"/>
+    <circle cx="28"  cy="244" r="1.3"/><circle cx="52"  cy="244" r="1.3"/><circle cx="76"  cy="244" r="1.3"/>
+    <circle cx="28"  cy="268" r="1.3"/><circle cx="52"  cy="268" r="1.3"/><circle cx="76"  cy="268" r="1.3"/>
+    <circle cx="824" cy="244" r="1.3"/><circle cx="848" cy="244" r="1.3"/><circle cx="872" cy="244" r="1.3"/>
+    <circle cx="824" cy="268" r="1.3"/><circle cx="848" cy="268" r="1.3"/><circle cx="872" cy="268" r="1.3"/>
+  </g>
+
+  <!-- ─── Floating star particles ─── -->
+  <!-- Blue particles -->
+  <circle r="3" fill="#58a6ff" filter="url(#pGlow)">
+    <animate attributeName="cx" values="85;115;72;85" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;35;80;60" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.2;1;0.9" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#79c0ff">
+    <animate attributeName="cx" values="830;800;848;830" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="75;50;95;75" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.3;0.7" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="#a5d6ff" filter="url(#pGlow)">
+    <animate attributeName="cx" values="430;465;415;430" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="30;55;18;30" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.95;0.3;0.6" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Purple particles -->
+  <circle r="2.5" fill="#d2a8ff" filter="url(#pGlow)">
+    <animate attributeName="cx" values="660;628;675;660" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="235;210;255;235" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.2;0.95;0.8" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#c792ea">
+    <animate attributeName="cx" values="155;185;140;155" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="245;220;265;245" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.95;0.4;0.6" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Cyan particles -->
+  <circle r="2.8" fill="#06b6d4" filter="url(#pGlow)">
+    <animate attributeName="cx" values="768;745;795;768" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="245;222;268;245" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.4;0.7" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#22d3ee">
+    <animate attributeName="cx" values="305;333;288;305" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="205;230;188;205" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.85;0.3;0.5" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Gold particles -->
+  <circle r="1.8" fill="#f59e0b" filter="url(#pGlow)">
+    <animate attributeName="cx" values="567;545;582;567" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="42;22;58;42" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.3;1;0.9" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.5" fill="#fbbf24">
+    <animate attributeName="cx" values="350;378;335;350" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="280;260;295;280" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.3;0.5" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ─── Horizontal scan line (tech effect) ─── -->
+  <rect x="0" y="0" width="900" height="1.5" fill="#58a6ff" opacity="0">
+    <animate attributeName="y" values="-2;322" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.1;0.9;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
   <!-- ─── NAME TEXT ─── -->
-  <text x="450" y="120" text-anchor="middle"
-        font-family="'Segoe UI', 'Courier New', monospace"
-        font-size="58" font-weight="900"
-        fill="#ffffff" filter="url(#textGlow)" opacity="0">
+  <text x="450" y="128" text-anchor="middle"
+        font-family="'Segoe UI', 'Arial', sans-serif"
+        font-size="66" font-weight="900" letter-spacing="3"
+        fill="#ffffff" filter="url(#nameGlow)" opacity="0">
     Vaibhav Sudrik
-    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.4s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;1" dur="1.4s" begin="0.3s" fill="freeze"/>
+  </text>
+  <!-- Name shadow for depth -->
+  <text x="452" y="130" text-anchor="middle"
+        font-family="'Segoe UI', 'Arial', sans-serif"
+        font-size="66" font-weight="900" letter-spacing="3"
+        fill="#1f6feb" opacity="0">
+    Vaibhav Sudrik
+    <animate attributeName="opacity" values="0;0;0.2" keyTimes="0;0.3;1" dur="1.4s" begin="0.3s" fill="freeze"/>
   </text>
 
-  <!-- ─── Animated underline ─── -->
-  <rect x="450" y="130" width="0" height="3" rx="2" fill="#58a6ff" filter="url(#softGlow)" opacity="0">
-    <animate attributeName="x" values="450;230" dur="0.9s" begin="1.4s" fill="freeze"/>
-    <animate attributeName="width" values="0;440" dur="0.9s" begin="1.4s" fill="freeze"/>
-    <animate attributeName="opacity" values="0;0.9" dur="0.9s" begin="1.4s" fill="freeze"/>
+  <!-- ─── Animated glowing underline ─── -->
+  <rect x="450" y="140" width="0" height="3.5" rx="2" fill="#58a6ff" filter="url(#pGlow)" opacity="0">
+    <animate attributeName="x" values="450;220" dur="1s" begin="1.5s" fill="freeze"/>
+    <animate attributeName="width" values="0;460" dur="1s" begin="1.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0.95" dur="1s" begin="1.5s" fill="freeze"/>
+  </rect>
+  <!-- Secondary underline shimmer -->
+  <rect x="340" y="143" width="220" height="1" rx="1" fill="#a5d6ff" opacity="0">
+    <animate attributeName="opacity" values="0;0.5" dur="0.5s" begin="2.4s" fill="freeze"/>
+    <animate attributeName="width" values="220;180;220" dur="3s" begin="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="340;360;340" dur="3s" begin="2.4s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- ─── ROLE TEXT ─── -->
-  <text x="450" y="168" text-anchor="middle"
-        font-family="'Segoe UI', 'Courier New', monospace"
-        font-size="17" font-weight="600"
-        fill="#58a6ff" filter="url(#softGlow)" opacity="0">
-    🤖 Aspiring Data Scientist  |  AI/ML &amp; Gen AI  |  ☁️ Cloud &amp; Big Data
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.8s" fill="freeze"/>
+  <!-- ─── ROLE / SUBTITLE TEXT ─── -->
+  <text x="450" y="178" text-anchor="middle"
+        font-family="'Segoe UI', monospace"
+        font-size="17" font-weight="600" letter-spacing="1"
+        fill="#58a6ff" filter="url(#badgeGlow)" opacity="0">
+    🤖 Aspiring Data Scientist  ·  AI/ML &amp; Gen AI  ·  ☁️ Cloud &amp; Big Data
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="2s" fill="freeze"/>
   </text>
 
-  <!-- ─── SKILLS TEXT ─── -->
-  <text x="450" y="200" text-anchor="middle"
-        font-family="'Segoe UI', 'Courier New', monospace"
-        font-size="13"
+  <!-- ─── SKILLS TAG LINE ─── -->
+  <text x="450" y="210" text-anchor="middle"
+        font-family="'Segoe UI', monospace"
+        font-size="13" letter-spacing="0.5"
         fill="#79c0ff" opacity="0">
-    Python  •  NumPy  •  Pandas  •  SQL  •  Power BI  •  Hadoop  •  Spark  •  AWS  •  DevOps
-    <animate attributeName="opacity" values="0;0.9" dur="1s" begin="2.2s" fill="freeze"/>
+    Python  ·  NumPy  ·  Pandas  ·  SQL  ·  Power BI  ·  Spark  ·  AWS  ·  MLOps  ·  LLMs
+    <animate attributeName="opacity" values="0;0.9" dur="1s" begin="2.5s" fill="freeze"/>
   </text>
 
-  <!-- ─── Status badge ─── -->
-  <rect x="355" y="216" width="190" height="28" rx="14" fill="#161b22" stroke="#1f6feb" stroke-width="1.2" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="2.6s" fill="freeze"/>
+  <!-- ─── STATUS BADGE ─── -->
+  <rect x="337" y="224" width="226" height="32" rx="16"
+        fill="#0d1117" stroke="#1f6feb" stroke-width="1.4" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="3s" fill="freeze"/>
+    <!-- Subtle pulsing glow on badge -->
+    <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.5s" begin="3.8s" repeatCount="indefinite"/>
   </rect>
-  <text x="450" y="235" text-anchor="middle"
-        font-family="'Segoe UI', monospace" font-size="12" font-weight="600"
-        fill="#58a6ff" opacity="0">
+  <text x="450" y="245" text-anchor="middle"
+        font-family="'Segoe UI', monospace" font-size="13" font-weight="600"
+        fill="#a9fef7" opacity="0">
     🇮🇳  India  ·  Open to Opportunities
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="2.6s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="3s" fill="freeze"/>
   </text>
 
   <!-- ─── Animated bottom wave ─── -->
-  <path d="M0,272 Q150,255 300,270 Q450,285 600,268 Q750,252 900,272 L900,300 L0,300 Z"
-        fill="#0d1117">
-    <animateTransform attributeName="transform" type="translate"
-      values="0,0; 18,0; -18,0; 0,0" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0,280 Q200,265 400,280 Q600,295 900,278 L900,300 L0,300 Z"
-        fill="#0d1117" opacity="0.85"/>
-  <path d="M0,290 Q250,278 500,290 Q700,300 900,285 L900,300 L0,300 Z"
-        fill="#0d1117"/>
+  <g clip-path="url(#clip)">
+    <path d="M0,278 Q130,262 290,276 Q450,292 610,274 Q760,258 900,274 L900,320 L0,320 Z"
+          fill="#0d1117">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 22,0; -22,0; 0,0" dur="5.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,285 Q200,270 400,285 Q600,300 900,284 L900,320 L0,320 Z"
+          fill="#0d1117" opacity="0.88"/>
+    <path d="M0,295 Q260,282 520,295 Q720,308 900,292 L900,320 L0,320 Z"
+          fill="#0d1117"/>
+  </g>
 </svg>
