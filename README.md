@@ -1,3 +1,9 @@
+# 💫 About Me:
+Aspiring Data Scientist | AI/ML & Gen AI | Python • NumPy • Pandas • SQL • Power BI | Hadoop • Hive • Spark • AWS DevOps | Cloud Computing Graduate
+
+
+## 🌐 Socials:# 👋 Hi, I'm Vaibhav Sudrik
+
 <div align="center">
 
 <img src="./assets/header.svg" width="100%" alt="Vaibhav Sudrik — Aspiring Data Scientist"/>
@@ -37,7 +43,7 @@ My technical background includes designing scalable cloud architectures on AWS, 
 
 ## Technical Skills
 
-<div align="center">
+### 🐍 Programming & Data
 
 <img src="https://skillicons.dev/icons?i=python,mysql,sqlite,tensorflow,pytorch,sklearn,hadoop,kafka,aws,docker,kubernetes,git,github,linux,bash,vscode,jupyter,anaconda,fastapi&theme=dark&perline=12" />
 
@@ -56,7 +62,15 @@ My technical background includes designing scalable cloud architectures on AWS, 
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 
-</div>
+### 📊 Analytics
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+---
+
+## 📊 GitHub Statistics
 
 ---
 
