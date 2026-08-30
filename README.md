@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=VAIBHAV%20SUDRIK&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Data%20%7C%20AI%2FML%20%7C%20GenAI%20%7C%20Cloud&descAlignY=55&descSize=22"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=EB+Garamond&weight=700&size=48&duration=3000&pause=1200&color=F72585&center=true&vCenter=true&width=700&height=70&lines=Vaibhav+Sudrik"/>
+<br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=4CC9F0,7209B7,F72585&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%F0%9F%92%A1+Aspiring+Data+Scientist;%F0%9F%A4%96+AI+%2F+ML+Engineer;%E2%9A%99%EF%B8%8F+Data+Engineer;%E2%9C%A8+GenAI+%26+LLM+Developer;%E2%98%81%EF%B8%8F+Cloud+%26+DevOps+Enthusiast"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=26&duration=2800&pause=900&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&multiline=true&width=800&height=110&lines=Vaibhav+Sudrik;%F0%9F%92%A1+Aspiring+Data+Scientist;%F0%9F%A4%96+AI+%2F+ML+Engineer;%E2%9A%99%EF%B8%8F+Data+Engineer;%E2%9C%A8+GenAI+%26+LLM+Developer;%E2%98%81%EF%B8%8F+Cloud+%26+DevOps+Enthusiast"/>
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=vaibhav343343&style=for-the-badge&color=blueviolet&label=Profile%20Views"/>
+<img src="https://komarev.com/ghpvc/?username=vaibhav343343&style=for-the-badge&color=blueviolet&label=Visitors"/>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 ## 🚀 About Me
 
-<img align="right" width="300" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
+<img align="right" width="320" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
 
 - 🎓 Cloud Computing Graduate, obsessed with turning raw data into real decisions
 - 🔭 Currently building projects across **Data Science, ML, GenAI & Cloud**
@@ -33,6 +33,7 @@
 - 🎯 Goal: become an end-to-end **AI/Data Engineer** who ships production-grade intelligent systems
 - 🏅 Certifications on [Credly](https://www.credly.com/users/username.c47c2387)
 - 💬 Ask me about: Python, Spark, AWS, ML pipelines, Power BI dashboards
+- ⚡ Fun fact: I debug faster with coffee ☕ than without
 
 <br clear="right"/>
 
@@ -49,8 +50,6 @@
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black"/>
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 
 </div>
 
@@ -84,6 +83,16 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav343343&theme=react-dark&hide_border=true&bg_color=0D1117&color=4CC9F0&line=F72585&point=ffffff"/>
 </div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vaibhav343343/vaibhav343343/output/github-contribution-grid-snake-dark.svg"/>
+</div>
+
+*(Animates automatically once the workflow below is added — see setup note at the bottom)*
 
 ---
 
