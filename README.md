@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Vaibhav%20Sudrik&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Data%20%7C%20AI%2FML%20%7C%20GenAI%20%7C%20Cloud&descAlignY=55&descSize=22"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Vaibhav%20Sudrik&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Data%20%7C%20AI%2FML%20%7C%20GenAI%20%7C%20Cloud&descAlignY=55&descSize=22"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=26&duration=1300&pause=300&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&width=800&height=50&lines=%F0%9F%A4%96+AI+%2F+ML+Engineer;%E2%98%81%EF%B8%8F+Cloud+Engineer;%E2%9A%99%EF%B8%8F+DevOps+Engineer;%F0%9F%93%8A+Data+Scientist;%E2%9C%A8+GenAI+Engineer"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=26&duration=1400&pause=400&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&width=800&height=50&lines=%F0%9F%A4%96+AI+%2F+ML+Engineer;%E2%98%81%EF%B8%8F+Cloud+Engineer;%E2%9A%99%EF%B8%8F+DevOps+Engineer;%F0%9F%93%8A+Data+Scientist;%E2%9C%A8+GenAI+Engineer"/>
 
 <br/>
 
