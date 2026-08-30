@@ -4,17 +4,15 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=26&duration=1400&pause=300&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%F0%9F%A4%96+AI+%2F+ML+Engineer;%E2%98%81%EF%B8%8F+Cloud+Engineer;%E2%9A%99%EF%B8%8F+DevOps+Engineer;%F0%9F%93%8A+Data+Scientist;%E2%9C%A8+GenAI+Engineer"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=26&duration=1300&pause=300&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&width=800&height=50&lines=%F0%9F%A4%96+AI+%2F+ML+Engineer;%E2%98%81%EF%B8%8F+Cloud+Engineer;%E2%9A%99%EF%B8%8F+DevOps+Engineer;%F0%9F%93%8A+Data+Scientist;%E2%9C%A8+GenAI+Engineer"/>
 
-<br/><br/>
+<br/>
 
 <a href="https://linkedin.com/in/vaibhav-sudrik-aa59ab34a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000"/></a>
 <a href="mailto:vaibhavsudrik2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000"/></a>
 <a href="https://instagram.com/vaibhav.008"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000"/></a>
 <a href="https://www.credly.com/users/username.c47c2387"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=000"/></a>
 <a href="https://github.com/vaibhav343343"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000"/></a>
-
-<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=vaibhav343343&style=for-the-badge&color=blueviolet&label=Visitors"/>
 
