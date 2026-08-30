@@ -43,7 +43,15 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,mysql,pandas,numpy,tensorflow,pytorch,sklearn,spark,hadoop,aws,docker,terraform,githubactions,git,powerbi,mongodb,github&theme=dark&perline=9"/>
+<img src="https://skillicons.dev/icons?i=py,mysql,tensorflow,pytorch,sklearn,aws,docker,terraform,githubactions,git,mongodb,github&theme=dark&perline=6"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"/>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 
 <br/><br/>
 
